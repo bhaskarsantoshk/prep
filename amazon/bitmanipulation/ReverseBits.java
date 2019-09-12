@@ -1,4 +1,4 @@
-package bitmanipulation;
+package amazon.bitmanipulation;
 
 public class ReverseBits {
     public long reverse(long a) {

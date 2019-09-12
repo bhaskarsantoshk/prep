@@ -1,4 +1,4 @@
-package bitmanipulation;
+package amazon.bitmanipulation;
 
 import java.util.List;
 

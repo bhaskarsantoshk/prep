@@ -1,4 +1,4 @@
-package bitmanipulation;
+package amazon.bitmanipulation;
 
 public class DivideIntegers {
     public int divide(int a, int b) {
