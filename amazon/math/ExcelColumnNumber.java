@@ -1,4 +1,4 @@
-package amazon;
+package amazon.math;
 
 public class ExcelColumnNumber {
     public int titleToNumber(String A) {
