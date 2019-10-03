@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class FirstMissingInteger {
     public int firstMissingPositive(ArrayList<Integer> A) {
         int size = moveNegativeNumbers(A);
-        return firstMissingPositive(A, size)
+        return firstMissingPositive(A, size);
     }
 
     private int firstMissingPositive(ArrayList<Integer> a, int size) {
