@@ -53,6 +53,7 @@ public class LRUCache {
             newNode.key = key;
             newNode.value = value;
             this.cache.put(key, newNode);
+            this.addNode(newNode);
             ++count;
             if ( count > capacity ){
                 DListNode tail = this.popTail();
@@ -62,6 +63,7 @@ public class LRUCache {
         }
         else{
             node.value = value;
+            this.moveToHead(node);
         }
     }
 
