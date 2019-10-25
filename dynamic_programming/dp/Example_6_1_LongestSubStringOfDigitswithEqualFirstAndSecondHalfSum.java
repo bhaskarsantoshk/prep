@@ -13,7 +13,7 @@ public class Example_6_1_LongestSubStringOfDigitswithEqualFirstAndSecondHalfSum 
                 int lsum = 0, rsum =0;
                 for ( int k=0; k<len/2;k++){
                     lsum+= (s[i+k] -'0');
-                    rsum+= (s[i+k+len/2] - '0')
+                    rsum+= (s[i+k+len/2] - '0');
                 }
                 if ( lsum == rsum ){
                     maxLen = len;
