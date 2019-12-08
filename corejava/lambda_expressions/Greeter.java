@@ -26,6 +26,9 @@ public class Greeter {
         };
 
         innerClass.perform();
+
+        greeter.greet(lamdaGreeting);
+        greeter.greet(innerClass);
     }
 }
 
